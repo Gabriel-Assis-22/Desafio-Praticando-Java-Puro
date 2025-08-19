@@ -1,5 +1,5 @@
 package one.digitalinnovation.gof;
-
+/*Sigleton Preguiçoso*/
 public class SingletonLazy {
     private static SingletonLazy instancia;
 
@@ -11,7 +11,6 @@ public class SingletonLazy {
         if(instancia == null){
             instancia = new SingletonLazy();
         }
-        return  instancia; 
+        return  instancia;
     }
-
 }
