@@ -1,4 +1,4 @@
-package one.digitalinnovation.gof;
+package one.digitalinnovation.Criacional;
 /*Sigleton Apressado*/
 public class SingletonEager {
     private static SingletonEager instancia = new SingletonEager();

@@ -1,4 +1,4 @@
-package one.digitalinnovation.gof;
+package one.digitalinnovation.Criacional;
 /*Sigleton Preguiçoso*/
 public class SingletonLazy {
     private static SingletonLazy instancia;
