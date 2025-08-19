@@ -1,5 +1,5 @@
 package one.digitalinnovation.gof;
-/*Sigleton Preguiçoso*/
+/*Sigleton Apressado*/
 public class SingletonEager {
     private static SingletonEager instancia = new SingletonEager();
 
