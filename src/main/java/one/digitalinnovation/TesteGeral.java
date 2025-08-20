@@ -4,6 +4,7 @@ import one.digitalinnovation.Comportamental.*;
 import one.digitalinnovation.Criacional.SingletonEager;
 import one.digitalinnovation.Criacional.SingletonLazy;
 import one.digitalinnovation.Criacional.SingletonLazyHolder;
+import one.digitalinnovation.Estrutural.Facade;
 
 public class TesteGeral {
     public static void main(String[] args) {
@@ -36,5 +37,8 @@ public class TesteGeral {
         robo.setComportamento(passifico);
         robo.mover();
 
+        //Facade
+        Facade facade = new Facade();
+        facade.migrarCliente("Gabriel", "46513298");
     }
 }
