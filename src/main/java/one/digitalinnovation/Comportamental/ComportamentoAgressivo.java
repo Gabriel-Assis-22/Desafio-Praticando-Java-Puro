@@ -6,3 +6,4 @@ public class ComportamentoAgressivo implements Comportamento{
         System.out.println("Movendo-se agressivamente");
     }
 }
+//há outras classes de comportamentos que implementam a interface Comportamento

@@ -22,7 +22,8 @@ public class TesteGeral {
         SingletonLazyHolder lazyHolder = SingletonLazyHolder.getInstancia();
         System.out.println(lazyHolder);
         lazyHolder = SingletonLazyHolder.getInstancia();
-        System.out.println(lazyHolder);
+        System.out.println(lazyHolder + "\n\n\n");
+
 
         // Strategy
         Comportamento passifico = new ComportamentoPassifico();
@@ -34,8 +35,13 @@ public class TesteGeral {
         robo.mover();
         robo.setComportamento(agressivo);
         robo.mover();
+        robo.mover();
         robo.setComportamento(passifico);
         robo.mover();
+        robo.mover();
+        robo.mover();
+
+
 
         //Facade
         Facade facade = new Facade();

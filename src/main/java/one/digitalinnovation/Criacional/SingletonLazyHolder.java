@@ -1,8 +1,12 @@
 package one.digitalinnovation.Criacional;
 /*Singleton Lazy Holder*/
+
 public class SingletonLazyHolder {
+
     private static class InstanceHolder{
-        public static SingletonLazyHolder instancia = new SingletonLazyHolder();
+
+        public static SingletonLazyHolder instancia =
+                            new SingletonLazyHolder();
     }
 
     private SingletonLazyHolder() {
